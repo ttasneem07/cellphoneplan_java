@@ -17,7 +17,8 @@ $java -jar lib/junit-platform-console-standalone-1.6.2.jar -cp bin -c CellPhoneP
 # Junit testing gives error
 Portion of the error code:
 
-> org.junit.platform.commons.JUnitException: TestEngine with ID 'junit-jupiter' failed to discover tests
+```
+org.junit.platform.commons.JUnitException: TestEngine with ID 'junit-jupiter' failed to discover tests
 	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:189)
 	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:168)
 	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
@@ -25,6 +26,6 @@ Portion of the error code:
 	at org.junit.platform.console.tasks.ConsoleTestExecutor.lambda$execute$0(ConsoleTestExecutor.java:58)
 	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.replaceThreadContextClassLoaderAndInvoke(CustomContextClassLoaderExecutor.java:41)
 
-
+```
 
 
