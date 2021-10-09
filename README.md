@@ -4,6 +4,7 @@ I've tried to compile. It works.
 
 # Commands to Compile 
 
+I first used this command to start compiling
 ```
 javac -d bin -cp bin src/CellPhonePlan.java
 ```
