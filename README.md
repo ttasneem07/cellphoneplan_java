@@ -16,7 +16,8 @@ java -cp bin CellPhonePlan
 
 So I would just skip that command, and go right on to use this command, it would compile most of the time:
 
-```javac -d bin -cp "bin:lib/*" test/CellPhonePlanTest.java
+```
+javac -d bin -cp "bin:lib/*" test/CellPhonePlanTest.java
 ``` 
 
 After compiling the file, using junit on Test file using the following command:
